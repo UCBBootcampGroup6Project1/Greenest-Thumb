@@ -1,11 +1,11 @@
 // URL to Darksky api.
-var urlOne = 'https://api.darksky.net/forecast/[key]/', // [latitude] [longitude]
+var urlOne = 'https://api.darksky.net/forecast/[key]/' // [latitude] [longitude]
 //URL to USDA PubAG api.
-var urlTwo = 'https://api.nal.usda.gov/pubag/rest/search/?query={}', // [&parameters]
+var urlTwo = 'https://api.nal.usda.gov/pubag/rest/search/?query={}' // [&parameters]
 
 // Ajax GET request to darksky api.
 $.ajax({
-    url: urlOne
+    url: urlOne,
     method: 'GET'
 }).then(function(response) {
     console.log(response);
