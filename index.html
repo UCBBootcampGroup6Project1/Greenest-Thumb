@@ -3,15 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>Greenest Thumb</title>
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
     <!-- Link bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Link stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
+<body id=”background”>
 
     <div class="container">
+
+        <div class="jumbotron jumbotron-fluid" id='jumbotron'>
+            <div class="title-container">
+                <h1 id='PgTitle'>Greenest Thumb</h1>
+                <img class='green-thumb' src='assets/images/greenthumb.jpg' alt='Green Thumb'>
+                <h2 id='PgSubtitle'>Come here for plant advice</h2>
+                
+            </div>
+        </div>
+
+        <form id='select-form'>
+            <div class="form-group">
+                <label for="plant-input" id='plantlbl'>Plant: </label>
+                <input type="plant" class="form-control" id="planttxt" aria-describedby="plants" placeholder="tomato, strawberry, rose, basil, mint etc...">
+                <small id="plantHelp" class="form-text text-muted">Please input the plant you would like to grow.</small>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" id='submitbtn'>Submit</button>
+        </form>
+            
 
     </div>
 
