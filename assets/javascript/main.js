@@ -18,14 +18,3 @@ $.ajax({
 }).then(function(response) {
     console.log(response);
 });
-
-// Initialize Firebase.
-var config = {
-    apiKey: "AIzaSyA_7OL01n3e6lrQelTdHcb5fRGHZ_Q71Tg",
-    authDomain: "greenest-thumb.firebaseapp.com",
-    databaseURL: "https://greenest-thumb.firebaseio.com",
-    projectId: "greenest-thumb",
-    storageBucket: "",
-    messagingSenderId: "513163004190"
-  };
-  firebase.initializeApp(config);
