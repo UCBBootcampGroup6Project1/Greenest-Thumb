@@ -9,16 +9,18 @@
 .green-thumb {
     height: 50px;
     width: 50px;
-    float: right;
+    /* float: right; */
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
 
-#jumbotron {
+.jumbotron {
     /* background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;   */
 
-    opacity: 0.75;
+    opacity: 0.80;
 }
 
 #PgTitle, #PgSubtitle {
@@ -38,7 +40,7 @@
     color: white;
     font-size: 20px;
     font-family: 'Vollkorn', serif;
-    
+    /* text-shadow: black; */
 }
 
 #planttxt {
@@ -47,6 +49,14 @@
     font-family: 'Vollkorn', serif;
 }
 
+.card-text{
+    font-family: 'Vollkorn', serif;
+    color: green;
+}
 
-
+.icon-img  {
+    width: 100px;
+    height: 100px;
+    opacity: 0.80;
+}
 
